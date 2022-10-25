@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 0;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .7rem;
+    color: rgb(0, 0, 0);
+    line-height: 100px;
+    text-align: center;
+    user-select: none;
+}
+#container{
+    width: 500px;
+    height: 600px;
+}
+#hero-image{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    /* border: solid rgb(64, 45, 151) 3px; */
+}
+
+#menu-holder{
+    display: flex;
+    height: 100px;
+}
+.menu-holder{
+    width: 100px;
+    height: 100px;
+    border: solid rgb(64, 45, 151) 1px;
+    background-color: rgb(201, 189, 223);
+}
+.button:hover{
+    background-color: rgb(162, 139, 199);
+}
+.button:active{
+    background-color: rgb(118, 85, 170);
+}
+.selected{ 
+    background-color: rgb(118, 85, 170);
+}
